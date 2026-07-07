@@ -1,1 +1,160 @@
+# Epic 2: Data Collection and Analysis
 
+## Overview
+
+Epic 2 focuses on collecting, understanding, and analyzing the agricultural dataset used in the **OptiCrop: Smart Agricultural Production Optimization Engine**. This phase establishes a strong data foundation for machine learning by performing dataset acquisition, loading, exploratory data analysis, and visualization.
+
+---
+
+## Objective
+
+The primary objective of this epic is to prepare the agricultural dataset for machine learning by:
+
+- Collecting a reliable dataset
+- Importing required Python libraries
+- Reading and validating the dataset
+- Performing Exploratory Data Analysis (EDA)
+- Understanding feature distributions and relationships
+
+---
+
+# Tasks Completed
+
+## Task 8 – Download the Dataset
+
+- Downloaded the Crop Recommendation dataset from Kaggle.
+- Verified dataset structure.
+- Stored the dataset for analysis.
+
+---
+
+## Task 9 – Importing the Libraries
+
+Imported required Python libraries including:
+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+Configured the FiveThirtyEight visualization style.
+
+---
+
+## Task 10 – Read the Dataset
+
+- Loaded the dataset using `read_csv()`.
+- Displayed initial records using `head()`.
+- Verified columns and data types.
+- Examined dataset structure.
+
+---
+
+## Task 11 – Univariate Analysis
+
+Performed individual feature analysis for:
+
+- Nitrogen
+- Phosphorous
+- Potassium
+- Temperature
+- Humidity
+- Soil pH
+- Rainfall
+
+Used histograms and distribution plots to study data distributions.
+
+---
+
+## Task 12 – Bivariate Analysis
+
+Analyzed the relationship between:
+
+- Humidity
+- Crop Labels
+
+Used scatter plots to identify environmental influences on crop suitability.
+
+---
+
+## Task 13 – Multivariate Analysis
+
+Performed multivariate analysis using:
+
+- Count plots
+- Descriptive statistics
+- Feature interaction analysis
+
+Studied relationships among multiple agricultural parameters simultaneously.
+
+---
+
+# Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+# Dataset
+
+**Dataset Name**
+
+Crop_recommendation.csv
+
+**Source**
+
+Kaggle
+
+---
+
+# Learning Outcomes
+
+After completing this epic, the following concepts were understood:
+
+- Agricultural dataset collection
+- Data loading and validation
+- Exploratory Data Analysis (EDA)
+- Feature distribution analysis
+- Relationship analysis
+- Statistical interpretation
+- Data visualization techniques
+
+---
+
+# Folder Structure
+
+```
+Epic-2-Data-Collection-and-Analysis/
+│
+├── README.md
+│
+├── Task-08-Download-the-Dataset/
+│   └── documentation.md
+│
+├── Task-09-Importing-the-Libraries/
+│   └── documentation.md
+│
+├── Task-10-Read-the-Dataset/
+│   └── documentation.md
+│
+├── Task-11-Univariate-Analysis/
+│   └── documentation.md
+│
+├── Task-12-Bivariate-Analysis/
+│   └── documentation.md
+│
+└── Task-13-Multivariate-Analysis/
+    └── documentation.md
+```
+
+---
+
+# Result
+
+Epic 2 was successfully completed by collecting the agricultural dataset, importing the necessary libraries, reading and validating the data, and performing comprehensive exploratory data analysis. These activities provided a thorough understanding of the dataset and established a strong foundation for data preprocessing and machine learning model development in the subsequent phases of the OptiCrop project.
