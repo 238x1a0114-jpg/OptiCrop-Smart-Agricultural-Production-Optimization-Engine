@@ -1,1 +1,66 @@
+# Task 3 - Project Workflow
 
+## Overview
+
+This task defines the complete workflow of the **OptiCrop: Smart Agricultural Production Optimization Engine**. It outlines the sequence of activities involved in developing an AI-powered crop recommendation system.
+
+---
+
+## Workflow Phases
+
+### Epic 1 – Define Problem and Understanding
+
+- Define agricultural problem
+- Gather business requirements
+- Conduct literature survey
+- Analyze social and business impact
+
+### Epic 2 – Data Collection and Analysis
+
+- Download dataset
+- Import libraries
+- Read dataset
+- Univariate analysis
+- Bivariate analysis
+- Multivariate analysis
+
+### Epic 3 – Data Preprocessing
+
+- Check null values
+- Handle outliers
+- Extract seasonal crops
+- Split training and testing data
+
+### Epic 4 – Model Building
+
+- K-Means Clustering
+- Logistic Regression
+- Evaluate model performance
+- Save best model
+- Predict suitable crop
+
+### Epic 5 – Application Building
+
+- Develop HTML frontend
+- Build Flask backend
+- Run and test application
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Flask
+- HTML
+- CSS
+
+---
+
+## Outcome
+
+The project workflow provides a structured roadmap for successfully implementing the OptiCrop Smart Agricultural Production Optimization Engine from problem definition to application deployment.
