@@ -1,1 +1,64 @@
+# Task 1 - Entity Relationship Diagram
 
+## Overview
+
+This task focuses on designing the Entity Relationship Diagram (ERD) for the OptiCrop: Smart Agricultural Production Optimization Engine.
+
+The ERD defines the database structure by identifying the entities, attributes, primary keys, foreign keys, and relationships required for the crop recommendation system.
+
+---
+
+## Objective
+
+Design a normalized database structure for storing:
+
+- User information
+- Soil parameters
+- Crop details
+- Dataset information
+- Machine Learning models
+- Prediction records
+- Agricultural reports
+
+---
+
+## Entities
+
+- User
+- SoilData
+- Crop
+- Dataset
+- MLModel
+- Prediction
+- Report
+
+---
+
+## Relationships
+
+- User → SoilData (1:M)
+- SoilData → Prediction (1:1)
+- Crop → Prediction (1:M)
+- Dataset → MLModel (1:M)
+- MLModel → Prediction (1:M)
+- Prediction → Report (1:M)
+
+---
+
+## Deliverables
+
+- Entity Relationship Diagram
+- Documentation
+- Database Design
+
+---
+
+## Learning Outcome
+
+After completing this task, the database architecture for the OptiCrop application is clearly defined, providing a strong foundation for application development and machine learning integration.
+
+---
+
+## Result
+
+The Entity Relationship Diagram was successfully designed for the OptiCrop Smart Agricultural Production Optimization Engine.
