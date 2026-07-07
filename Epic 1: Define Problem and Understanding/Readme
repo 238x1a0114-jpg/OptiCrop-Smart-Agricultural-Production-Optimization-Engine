@@ -1,1 +1,107 @@
+# Epic 1: Define Problem and Understanding
 
+## Overview
+
+Epic 1 focuses on understanding the agricultural challenges addressed by the **OptiCrop: Smart Agricultural Production Optimization Engine**. This phase establishes the project's foundation by defining the business problem, gathering business requirements, conducting a literature survey, and analyzing the social and business impact of an AI-powered crop recommendation system.
+
+---
+
+## Objective
+
+- Identify the agricultural problem.
+- Understand stakeholder requirements.
+- Study existing crop recommendation systems.
+- Analyze the impact of AI-driven farming solutions.
+
+---
+
+## Tasks Completed
+
+### Task 4: Specify the Business Problem
+
+- Identified challenges in crop selection.
+- Defined project objectives.
+- Studied soil and environmental parameters.
+- Established the project scope.
+
+---
+
+### Task 5: Business Requirements
+
+- Documented functional requirements.
+- Documented non-functional requirements.
+- Identified stakeholders.
+- Defined expected outcomes.
+
+---
+
+### Task 6: Literature Survey
+
+- Reviewed existing agricultural recommendation systems.
+- Studied Machine Learning algorithms.
+- Compared different crop prediction approaches.
+- Identified research gaps.
+
+---
+
+### Task 7: Social and Business Impact
+
+- Evaluated social benefits.
+- Analyzed business value.
+- Identified environmental benefits.
+- Explored future opportunities.
+
+---
+
+## Technologies Studied
+
+- Python
+- Machine Learning
+- NumPy
+- Pandas
+- Scikit-learn
+- Flask
+- Matplotlib
+- Seaborn
+
+---
+
+## Learning Outcomes
+
+After completing this epic, the following concepts were understood:
+
+- Agricultural domain analysis
+- Problem identification
+- Business requirement gathering
+- Literature review methodology
+- AI applications in agriculture
+- Sustainable farming practices
+- Precision agriculture concepts
+
+---
+
+## Folder Structure
+
+```
+Epic-1-Define-Problem-and-Understanding/
+│
+├── README.md
+│
+├── Task-04-Specify-the-Business-Problem/
+│   └── documentation.md
+│
+├── Task-05-Business-Requirements/
+│   └── documentation.md
+│
+├── Task-06-Literature-Survey/
+│   └── documentation.md
+│
+└── Task-07-Social-and-Business-Impact/
+    └── documentation.md
+```
+
+---
+
+## Result
+
+Epic 1 successfully established a clear understanding of the agricultural problem, stakeholder needs, business objectives, existing research, and the potential social and business impact of the OptiCrop system. This phase provides a strong foundation for the subsequent stages of data collection, preprocessing, machine learning model development, and application deployment.
