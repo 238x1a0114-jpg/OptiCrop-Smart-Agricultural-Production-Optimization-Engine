@@ -1,1 +1,208 @@
+# Epic 3: Data Pre-processing
 
+## Overview
+
+Epic 3 focuses on preparing the agricultural dataset for machine learning by performing essential data preprocessing techniques. Data preprocessing improves dataset quality, removes inconsistencies, identifies outliers, extracts meaningful seasonal information, and prepares the data for model training and evaluation.
+
+This phase ensures that the agricultural dataset is clean, reliable, and optimized for developing accurate crop recommendation models in the **OptiCrop: Smart Agricultural Production Optimization Engine**.
+
+---
+
+# Objective
+
+The primary objective of this epic is to improve the quality of the agricultural dataset before machine learning model development by:
+
+- Checking for missing values
+- Detecting and handling outliers
+- Extracting seasonal crop information
+- Splitting the dataset into training and testing sets
+
+---
+
+# Tasks Completed
+
+## Task 14 – Checking for Null Values
+
+### Description
+
+The dataset was examined to identify missing or null values using Pandas functions.
+
+### Activities Performed
+
+- Checked dataset dimensions using `shape()`
+- Examined dataset structure using `info()`
+- Verified missing values using `isnull().sum()`
+
+### Result
+
+- No missing values were found.
+- Dataset is complete and suitable for machine learning.
+
+---
+
+## Task 15 – Handling Outliers
+
+### Description
+
+Outliers were identified using statistical and visualization techniques.
+
+### Activities Performed
+
+- Generated Boxplots
+- Calculated Interquartile Range (IQR)
+- Computed Upper and Lower Bounds
+- Applied Log Transformation for normalization
+
+### Result
+
+- Extreme values were successfully identified.
+- Data distribution became more balanced after preprocessing.
+
+---
+
+## Task 16 – Extracting Seasonal Crops
+
+### Description
+
+Agricultural data was analyzed to classify crops according to seasonal environmental conditions.
+
+### Activities Performed
+
+- Studied temperature patterns
+- Analyzed rainfall distribution
+- Evaluated humidity levels
+- Grouped crops into seasonal categories
+
+### Seasons Identified
+
+- Summer
+- Winter
+- Rainy (Monsoon)
+
+### Result
+
+Season-specific crop recommendations can now be generated more effectively.
+
+---
+
+## Task 17 – Splitting Data into Train and Test Sets
+
+### Description
+
+The dataset was divided into feature variables and target variables before splitting into training and testing datasets.
+
+### Activities Performed
+
+- Selected input features
+- Selected target labels
+- Applied `train_test_split()`
+- Used an 80:20 split ratio
+- Set `random_state = 42`
+
+### Result
+
+The dataset is now prepared for Machine Learning model training and performance evaluation.
+
+---
+
+# Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+# Dataset
+
+**Dataset Name**
+
+Crop_recommendation.csv
+
+**Source**
+
+Kaggle – Smart Agricultural Production Optimizing Engine
+
+---
+
+# Preprocessing Techniques Used
+
+- Missing Value Detection
+- Dataset Validation
+- Outlier Detection
+- IQR Method
+- Log Transformation
+- Seasonal Crop Extraction
+- Feature Selection
+- Train-Test Split
+
+---
+
+# Learning Outcomes
+
+After completing this epic, the following concepts were understood:
+
+- Data quality assessment
+- Missing value detection
+- Outlier analysis
+- Feature preprocessing
+- Seasonal agricultural analysis
+- Dataset preparation
+- Machine learning workflow
+- Data splitting strategies
+
+---
+
+# Folder Structure
+
+```
+Epic-3-Data-Preprocessing/
+│
+├── README.md
+│
+├── Task-14-Checking-for-Null-Values/
+│   └── documentation.md
+│
+├── Task-15-Handling-Outliers/
+│   └── documentation.md
+│
+├── Task-16-Extracting-Seasonal-Crops/
+│   └── documentation.md
+│
+└── Task-17-Splitting-Data-into-Train-and-Test-Sets/
+    └── documentation.md
+```
+
+---
+
+# Key Achievements
+
+- Successfully validated dataset quality.
+- Confirmed there were no missing values.
+- Detected and handled outliers using the IQR method.
+- Improved feature distributions through preprocessing.
+- Extracted seasonal crop information for better recommendations.
+- Prepared the dataset for machine learning using train-test splitting.
+
+---
+
+# Conclusion
+
+Epic 3 successfully transformed the raw agricultural dataset into a clean, structured, and machine learning-ready dataset. Through preprocessing techniques such as missing value detection, outlier handling, seasonal crop extraction, and train-test splitting, the dataset was optimized for model development. These preprocessing steps improve prediction accuracy, reduce bias, and establish a strong foundation for the machine learning models implemented in the next phase of the OptiCrop project.
+
+---
+
+# Next Phase
+
+**Epic 4 – Model Building**
+
+The next phase focuses on:
+
+- K-Means Clustering
+- Logistic Regression
+- Model Evaluation
+- Saving the Best Model
+- Predicting the Best Crop Based on User Input
