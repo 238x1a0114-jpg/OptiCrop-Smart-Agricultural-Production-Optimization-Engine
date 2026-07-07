@@ -1,1 +1,59 @@
+# Task 2 - Pre-requisites
 
+## Overview
+
+This task involves installing and configuring the software tools and Python libraries required for developing the **OptiCrop: Smart Agricultural Production Optimization Engine**.
+
+These prerequisites provide the necessary environment for data analysis, machine learning, visualization, and web application development.
+
+---
+
+## Software
+
+- Anaconda Navigator
+- PyCharm IDE
+
+---
+
+## Python Libraries
+
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Flask
+
+---
+
+## Installation
+
+Install the required libraries using:
+
+```bash
+pip install numpy pandas scikit-learn matplotlib seaborn flask
+```
+
+---
+
+## Development Environment
+
+- Python 3.10+
+- Windows 10/11
+- Anaconda Navigator
+- PyCharm IDE
+
+---
+
+## Learning Outcome
+
+- Installed all required software tools.
+- Configured Python development environment.
+- Installed machine learning and visualization libraries.
+- Prepared the system for application development.
+
+---
+
+## Result
+
+The development environment and all project prerequisites were successfully installed and configured for the OptiCrop project.
